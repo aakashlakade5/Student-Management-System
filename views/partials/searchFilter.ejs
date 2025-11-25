@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    
+                <!-- Serach -->
+                <form method="GET" action="/view-students" class="mb-2 d-flex">
+                    <input type="text" name="search" class="form-control me-2" placeholder="Search by name, ID, class..."
+                    value="<%= typeof search !== 'undefined' ? search : '' %>">
+                    <button type="submit" class="btn btn-primary">Search</button>
+                  </form>
+  
+                  <!-- Filter -->
+                  <form action="/view-students" method="get" class="row g-3 align-items-end mb-3">
+                    <div class="col-md-4">
+
+                      <label for="classSelect" class="form-label">Class</label>
+                      <select name="schClass" id="classSelect" class="form-select">
+                        <option value="">All Classes</option>
+                        <% for( let i = 0; i <= 12; i++ ) { %>
+                          <option value="<%= i %>" <%=filters.schClass==i ? 'selected' : '' %>><%= i %></option>
+                        <% } %>
+                      </select>
+                    </div>
+                  
+                    <div class="col-md-4">
+
+                      <label for="sectionSelect" class="form-label">Section</label>
+                      <select name="section" id="sectionSelect" class="form-select">
+                        <option value="">All Sections</option>
+                        <% ['A', 'B', 'C', 'D', 'E', 'F'].forEach(sec => { %>
+                          <option value="<%= sec %>" <%=filters.section==sec ? 'selected' : '' %>><%= sec %></option>
+                        <% }) %>
+                      </select>
+                    </div>
+                  
+                    <div class="col-md-4">
+                      <button type="submit" class="btn btn-primary w-100">🔍 Filter</button>
+                    </div>
+                  </form>
+                  
+</body>
+</html>

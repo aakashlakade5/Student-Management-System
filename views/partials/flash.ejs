@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <% if (success_msg && success_msg.length > 0) { %>
+        <div class="alert alert-success alert-dismissible fade show p-md-2" role="alert">
+          <%= success_msg %>
+          <!-- <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button> -->
+        </div>
+      <% } %>
+      
+      <% if (error_msg && error_msg.length > 0) { %>
+        <div class="alert alert-danger alert-dismissible fade show p-md-2" role="alert">
+          <%= error_msg %>
+          <!-- <button type="button" class="btn-close p-md-3" data-bs-dismiss="alert" aria-label="Close"></button> -->
+        </div>
+      <% } %>
+        
+
+</body>
+</html>

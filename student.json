@@ -1,0 +1,122 @@
+[
+  {
+    "_id": "68f0dd7824bd1774bc955425",
+    "studentId": 112,
+    "name": "Neha",
+    "email": "neha@example.com",
+    "subjects": [
+      { "subjectName": "Math", "marks": 72, "_id": "68f0e05bf32b42665580f011" },
+      { "subjectName": "English", "marks": 81, "_id": "68f0e05bf32b42665580f012" },
+      { "subjectName": "Science", "marks": 79, "_id": "68f0e05bf32b42665580f013" }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "68f0dd7824bd1774bc955426",
+    "studentId": 113,
+    "name": "Aman",
+    "email": "aman@example.com",
+    "subjects": [
+      { "subjectName": "Math", "marks": 65, "_id": "68f0e05bf32b42665580f014" },
+      { "subjectName": "English", "marks": 70, "_id": "68f0e05bf32b42665580f015" },
+      { "subjectName": "Science", "marks": 68, "_id": "68f0e05bf32b42665580f016" }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "68f0dd7824bd1774bc955427",
+    "studentId": 114,
+    "name": "Priya",
+    "email": "priya@example.com",
+    "subjects": [
+      { "subjectName": "Math", "marks": 89, "_id": "68f0e05bf32b42665580f017" },
+      { "subjectName": "English", "marks": 92, "_id": "68f0e05bf32b42665580f018" },
+      { "subjectName": "Science", "marks": 90, "_id": "68f0e05bf32b42665580f019" }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "68f0dd7824bd1774bc955428",
+    "studentId": 115,
+    "name": "Rajat",
+    "email": "rajat@example.com",
+    "subjects": [
+      { "subjectName": "Math", "marks": 55, "_id": "68f0e05bf32b42665580f01a" },
+      { "subjectName": "English", "marks": 60, "_id": "68f0e05bf32b42665580f01b" },
+      { "subjectName": "Science", "marks": 58, "_id": "68f0e05bf32b42665580f01c" }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "68f0dd7824bd1774bc955429",
+    "studentId": 116,
+    "name": "Simran",
+    "email": "simran@example.com",
+    "subjects": [
+      { "subjectName": "Math", "marks": 78, "_id": "68f0e05bf32b42665580f01d" },
+      { "subjectName": "English", "marks": 85, "_id": "68f0e05bf32b42665580f01e" },
+      { "subjectName": "Science", "marks": 80, "_id": "68f0e05bf32b42665580f01f" }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "68f0dd7824bd1774bc955430",
+    "studentId": 117,
+    "name": "Karan",
+    "email": "karan@example.com",
+    "subjects": [
+      { "subjectName": "Math", "marks": 61, "_id": "68f0e05bf32b42665580f020" },
+      { "subjectName": "English", "marks": 66, "_id": "68f0e05bf32b42665580f021" },
+      { "subjectName": "Science", "marks": 70, "_id": "68f0e05bf32b42665580f022" }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "68f0dd7824bd1774bc955431",
+    "studentId": 118,
+    "name": "Divya",
+    "email": "divya@example.com",
+    "subjects": [
+      { "subjectName": "Math", "marks": 83, "_id": "68f0e05bf32b42665580f023" },
+      { "subjectName": "English", "marks": 88, "_id": "68f0e05bf32b42665580f024" },
+      { "subjectName": "Science", "marks": 86, "_id": "68f0e05bf32b42665580f025" }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "68f0dd7824bd1774bc955432",
+    "studentId": 119,
+    "name": "Nikhil",
+    "email": "nikhil@example.com",
+    "subjects": [
+      { "subjectName": "Math", "marks": 47, "_id": "68f0e05bf32b42665580f026" },
+      { "subjectName": "English", "marks": 52, "_id": "68f0e05bf32b42665580f027" },
+      { "subjectName": "Science", "marks": 50, "_id": "68f0e05bf32b42665580f028" }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "68f0dd7824bd1774bc955433",
+    "studentId": 120,
+    "name": "Anjali",
+    "email": "anjali@example.com",
+    "subjects": [
+      { "subjectName": "Math", "marks": 74, "_id": "68f0e05bf32b42665580f029" },
+      { "subjectName": "English", "marks": 79, "_id": "68f0e05bf32b42665580f02a" },
+      { "subjectName": "Science", "marks": 76, "_id": "68f0e05bf32b42665580f02b" }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "68f0dd7824bd1774bc955434",
+    "studentId": 121,
+    "name": "Harsh",
+    "email": "harsh@example.com",
+    "subjects": [
+      { "subjectName": "Math", "marks": 69, "_id": "68f0e05bf32b42665580f02c" },
+      { "subjectName": "English", "marks": 73, "_id": "68f0e05bf32b42665580f02d" },
+      { "subjectName": "Science", "marks": 71, "_id": "68f0e05bf32b42665580f02e" }
+    ],
+    "__v": 0
+  }
+]
